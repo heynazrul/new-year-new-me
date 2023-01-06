@@ -24,6 +24,7 @@
 .btn-primary {
   font-weight: 600;
   font-size: 2.4rem;
+  background-color: #fff;
   color: #005fac;
   padding: 20px 24px;
   border-radius: 5px;
@@ -76,18 +77,19 @@ main {
   display: flex;
   gap: 100px;
   margin: 150px 0;
+  align-items: center;
 }
 
 .content-container {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .failure-section-container .section-title {
-  padding-right: 350px;
+  padding-right: 320px;
 }
 
 .failure-section-container .section-description {
-  padding-right: 250px;
+  padding-right: 220px;
 }
 
 .item {
@@ -115,7 +117,7 @@ main {
 }
 
 .plan-content {
-    text-align: center;
+  text-align: center;
 }
 .plan-content .plan-title {
   font-size: 3.5rem;
@@ -124,6 +126,29 @@ main {
 }
 
 .plan-content .plan-description {
-    font-size: 2.5rem;
-    color: #737272;
+  font-size: 2.5rem;
+  color: #737272;
+}
+
+/* Call to action Style */
+
+.call-to-action {
+  margin: 130px auto;
+  background-image: url(../images/watch.png), 
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 300px;
+}
+
+.info-container {
+    padding: 48px;
+    width: 60%;
+}
+
+.info-container .section-title{
+    color: #fff;
+    margin-bottom: 24px;
 }
