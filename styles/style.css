@@ -19,24 +19,24 @@
   color: #444343;
 }
 
-.btn-primary {
-  font-weight: 600;
-  font-size: 24px;
-  background-color: #fff;
-  color: #005fac;
-  padding: 20px 24px;
-  border-radius: 5px;
-  border: none;
-}
-
+.btn-primary,
 .btn-secondary {
   font-weight: 600;
   font-size: 24px;
-  background-color: #005fac;
-  color: #fff;
+
   padding: 20px 24px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #005fac;
+}
+.btn-secondary {
+  background-color: #005fac;
+  color: #fff;
 }
 
 /* Header Banner Style */
